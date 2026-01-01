@@ -43,3 +43,4 @@ Unlike industrial aeroponics, this system focuses on:
 ## Author
 **Bhargow Kumar**  
 Student | Science & Sustainability
+https://aeroponis.lovable.app
