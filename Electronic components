@@ -1,0 +1,166 @@
+1️⃣ SMPS – 12V, 5A
+
+Where it is used:
+Mounted in a dry, protected control box.
+
+Step-by-step Use:
+
+Converts AC mains power into stable 12V DC.
+
+Powers the 40W water pump reliably.
+
+Supplies power to Arduino and other electronics (via voltage regulation if needed).
+
+Importance:
+Ensures safe, continuous operation of all electronic components.
+
+2️⃣ Submersible DC Water Pump – 40 Watt
+
+Where it is used:
+Placed inside the nutrient tank.
+
+Step-by-step Use:
+
+Receives power through the relay from SMPS.
+
+Pumps liquid nutrient solution to flow over plant roots.
+
+Excess solution drains back into the tank (closed-loop).
+
+Importance:
+Delivers essential nutrients directly to roots — main functional component.
+
+3️⃣ Microcontroller – Arduino
+
+Where it is used:
+Mounted on breadboard or control panel, away from water.
+
+Step-by-step Use:
+
+Reads data from DHT11 and pH sensor.
+
+Determines pump operation based on timed intervals and sensor readings.
+
+Sends control signals to relay and LCD.
+
+Importance:
+Acts as the brain of the system, enabling automation and monitoring.
+
+4️⃣ Relay Modules – 2 Units
+
+Where they are used:
+Between Arduino and pump power line.
+
+Step-by-step Use:
+
+First relay switches pump ON/OFF based on Arduino command.
+
+Second relay is reserved for future use (optional: valve, light, or backup pump).
+
+Isolates low-power Arduino from high-current pump.
+
+Importance:
+Provides safe electrical switching and protects Arduino.
+
+5️⃣ DHT11 Temperature & Humidity Sensor
+
+Where it is used:
+Placed near plants, protected from splashes.
+
+Step-by-step Use:
+
+Measures air temperature.
+
+Measures humidity around plants.
+
+Sends readings to Arduino for monitoring and display.
+
+Importance:
+Allows tracking of plant-growing environment for optimization.
+
+6️⃣ pH Sensor
+
+Where it is used:
+Probe placed inside nutrient reservoir.
+
+Step-by-step Use:
+
+Measures acidity/alkalinity of liquid nutrient.
+
+Sends pH data to Arduino.
+
+Can trigger alerts if pH is outside safe range.
+
+Importance:
+Ensures proper nutrient uptake by roots.
+
+7️⃣ LCD Display (16×2 or 20×4)
+
+Where it is used:
+Mounted on control panel for easy monitoring.
+
+Step-by-step Use:
+
+Receives data from Arduino (temperature, humidity, pH, pump status).
+
+Displays real-time values:
+
+Example:
+
+Temp: 28°C  Hum: 65%
+pH: 6.5    Pump: ON
+
+
+Alerts user if values go outside safe limits.
+
+Importance:
+
+Enables instant monitoring without external apps.
+
+Shows pump status, environment, and nutrient info to users and judges.
+
+8️⃣ Breadboard
+
+Where it is used:
+Used for assembling Arduino and sensors connections.
+
+Step-by-step Use:
+
+Provides a safe platform for prototyping.
+
+Allows easy modifications without soldering.
+
+Helps test electronics before final setup.
+
+Importance:
+Safe, flexible, and convenient for a student project.
+
+9️⃣ Jumper Wires (As per use)
+
+Where they are used:
+Throughout the circuit.
+
+Step-by-step Use:
+
+Connect sensors (DHT11, pH) to Arduino.
+
+Connect Arduino outputs to relay and LCD.
+
+Distribute power to components as required.
+
+Importance:
+Ensures organized, reliable connections.
+
+🔁 Overall System Sequence
+
+SMPS powers Arduino, pump, and LCD.
+
+Arduino reads DHT11 & pH sensor.
+
+Arduino updates LCD display with real-time data.
+
+Arduino controls pump ON/OFF via relay.
+
+Liquid nutrient flows over roots and returns to tank.
+
+Cycle repeats automatically.
