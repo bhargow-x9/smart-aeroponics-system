@@ -1,0 +1,133 @@
+Aeroponic Tower Project Pitch Script
+Two-Speaker Format:
+SIMPLE VERSION WITH AI FEATURES
+[AK - OPENING] 
+�
+�
+Good morning, everyone. Imagine growing food using 98% less water and having it available 365 days a year.
+That's what we're showing you today.
+I'm Aarav Kumar, and this is Bhargow Kumar. We've built an Automated Aeroponic Tower with AI – it grows
+pesticide-free food, saves water, and predicts weather to water plants smartly.
+[AK - WHAT IS AEROPONICS] 
+�
+�
+Aeroponics means growing plants without soil. Plant roots hang in air, and we spray them with water and
+nutrients.
+Normal farming needs soil, lots of water, lots of space, and you fight weeds and bugs. Aeroponics removes all
+that. No soil = no weeds, no diseases, no pesticides. Food goes straight to roots.
+[AK - HOW IT WORKS] 
+�
+�
+Picture our tower. Inside, plant roots hang in a closed chamber – just hanging in air. Below is a water tank with
+nutrients.
+A pump sprays mist on the roots every few minutes. Plants take what they need. Extra water drips back into the
+tank. Nothing wasted.
+But we added something special – AI climate prediction. The system doesn't just spray on a timer. It predicts
+upcoming weather and adjusts watering automatically. If it's going to be hot tomorrow, it waters more today.
+This saves water and keeps plants healthy.
+[BK - SYSTEM PARTS] 
+�
+�
+Six main parts:
+One – Water tank that recycles
+Two – Water pump
+Three – Spray nozzles and pipes
+Four – Smart timer with AI
+Five – Plant holders
+Six – Four growing towers
+Can grow 48 plants total. Sprays 3 minutes, rests 12 minutes. Plants absorb nutrients 30-50% better than soil.
+[AK - WHY THIS MATTERS] 
+�
+�
+Water – Uses 98% less water. Huge for water-scarce areas.
+No Pesticides – Zero chemicals. Food is completely clean.
+Faster Growth – 30-50% faster. What takes 60 days in soil takes 35-40 days here.
+More Nutrition – Food has 20-40% more nutrients than store-bought.
+Space Saving – Four towers = 200 square foot garden.
+Year-Round – Grow fresh food 365 days, any weather.
+Lasts Longer – Vegetables stay fresh 2-3 times longer.
+[BK - AI SYSTEM] 
+�
+�
+We use Arduino brain with AI weather prediction.
+How AI works:
+We use DHT11 sensor to read temperature and humidity in real-time.
+The system uses GPT-inspired climate logic – trained on weather patterns, then converted to simple rules the
+Arduino can run offline.
+Instead of just monitoring, our model predicts upcoming weather and adjusts watering before conditions
+change.
+Example: If sensors detect rising heat and dropping humidity, AI predicts hot day tomorrow and increases
+watering today. This prevents plant stress.
+Also has:
+Environmental cooling mist when too hot
+Safety sensors stop system if something breaks
+Remote control capability
+This makes it innovative and future-ready.
+[AK - WHY AI MATTERS] 
+�
+�
+Here's the big difference: Most systems just react. Ours predicts.
+Traditional systems water on fixed schedules. If weather changes suddenly, plants suffer.
+Our AI combines sensors with climate prediction. It waters plants based on what's coming, not just what's
+happening now.
+Result: Less water wasted, healthier plants, better yields.
+[BK - THE PROBLEM WE SOLVE] 
+�
+�
+Climate change and water scarcity make traditional farming inefficient.
+Our project addresses this using AI-based climate prediction and aeroponic farming.
+We're combining artificial intelligence with sustainable farming. Using real-time sensor data, the AI system
+predicts climate conditions. This helps reduce water usage, improve crop health, and benefit society.
+[AK - REAL-WORLD USE] 
+�
+�
+Where aeroponics is used:
+Cities – Rooftop farms growing fresh vegetables
+Businesses – Growing herbs year-round
+Schools – Teaching sustainable farming
+Labs – Studying plants because roots are visible
+NASA tested this in space – works on International Space Station, planned for Mars.
+Same technology we're showing could feed people on another planet.
+[BK - SCIENCE VALUE] 
+�
+�
+Great for plant research. Roots hang in open air, so scientists watch them grow without killing the plant.
+NASA tested in space – works perfectly even without gravity.
+System doesn't care about bad soil, no underground water, or difficult land. Those problems don't matter.
+[AK - CHALLENGES] 
+�
+�
+Being honest – there are challenges:
+Needs electricity constantly. Costs more to start than regular farming. Need to learn about nutrients. Spray
+nozzles need cleaning.
+But we can solve these. Working on battery backup. Cost drops when more people use it. We teach the basics.
+Cleaning becomes routine.
+Benefits outweigh challenges.
+[BK - OUR GOALS] 
+�
+�
+Three goals:
+One – Build cheap aeroponic tower under $2,000 using local materials.
+Two – Show automatic AI-powered watering working in real-time.
+Three – Spread awareness to students and small farmers.
+Making advanced technology simple and affordable.
+[BK - ENVIRONMENTAL FACTS] 
+�
+�
+Numbers:
+Water use: Only 2-10% of normal farming
+Soil damage: Zero
+Fertilizer waste: Zero
+Pesticides: Zero
+Carbon footprint: 60-70% lower in cities
+Supports UN Goals: Zero Hunger, Responsible Consumption, Climate Action.
+[AK - CLOSING] 
+�
+�
+The Automated Aeroponic Tower with AI is not just a project – it's a solution.
+Growing more nutritious food with less water. Bringing farms to cities. Using AI to farm smarter, not harder.
+This system doesn't just grow plants. It grows solutions.
+For families who want clean food. For communities running out of water. For farmers looking for better yields.
+For the future.
+We asked: How do we feed the future? This is our answer.
+Thank you. Ready for questions
