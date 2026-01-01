@@ -1,4 +1,4 @@
-# Smart Aeroponics System 🌱
+# Automated Aeroponics System 🌱
 
 ## Overview
 This project focuses on building a **simple, low-cost, and automated aeroponics system** suitable for students and small-scale farmers.  
